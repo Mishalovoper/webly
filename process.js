@@ -1,9 +1,8 @@
 var loadedUntil = 0;
 var previousMemory = "";
-var memories = ['Test1 - 2020/08/25','Test1 - 2020/08/25','Test1 - 2020/08/25','Test1 - 2020/08/25','Test1 - 2020/08/25','Test2 - 2020/08/25','Test155020/08/25','Test3 - 2020/08/25','Test1 - 2020/08/25','Test4 - 2020/08/25','Test1 - 2020/08/25','Test1 - 2020/08/25','Test1 - 2020/08/25','Test1 - 2020/08/25','Test1 - 2020/08/25','Test1 - 2020/08/25','Test1 - 2020/08/25','Test1 - 2020/08/25','Test1 - 2020/08/25','Test1 - 2020/08/25','Test44 2020/08/25','Test1 - 2020/08/25','Test20 - 2020/08/25'];
+var memories = ['This is a test memory'];
 
 function init(){
- alert("INIT");
  if(memories.length <=10){
  for(var i=0;i<memories.length;i++){
      document.getElementsByClassName('feed')[0].innerHTML+= '<h3>'+memories[i]+'</h3><hr>';
