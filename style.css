@@ -1,0 +1,42 @@
+  
+body{
+  background:#dbe4eb;
+  flex:1;
+}
+ul {
+  list-style-type: none;
+  background:#fff;
+  
+}
+li {
+  display: inline;
+    margin-left: 50px;
+    padding:20px;
+}
+a{
+  color:#000;
+  text-decoration:none;
+}
+h1{
+  color:#413c49;
+}
+p{
+  font-size:20px;
+}
+hr{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+#gg{
+    color:#000;
+  text-decoration:none;
+  font-size:16px;
+  display:inline;
+}
+#date{
+  color:#
+}
+#last_container{
+    display:block;
+  text-align:center;
+}
