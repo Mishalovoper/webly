@@ -1,6 +1,6 @@
 var loadedUntil = 0;
 var previousMemory = "";
-var memories = ['This is a test memory'];
+var memories = ['This is a test memory - 2021/08/29'];
 
 function init(){
  if(memories.length <=10){
