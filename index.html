@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Memories</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+<script type="text/javascript" src="./js/process.js"></script>
+  <body>
+    <div class="header">
+    <header>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><p id="gg" onclick="getM()">Click here for a random quote</p></li>
+      </ul>
+    </header>
+      </div>
+    <h1>Welcome to GIB Trainee Program</h1>
+    <p>This website is memories collection of those who entered GIB 2021 - Jammaz Alsuhaimi Program</p>
+    <div class="memory">
+    <label for="memory">Enter a memory</label>
+      <textarea name="memory" rows="4" cols="50" placeholder="Enter the memory here ..."></textarea>
+      <button onclick="submitMemory()">Submit</button>
+    </div>
+    <hr/>
+    <div class="memories">
+      <h1>Memories feed</h1>
+      <div class="feed">
+      </div>
+    </div>
+    <div id="last_container">
+    <button id="loadmore" onclick="loadMore()">Load more</button>
+    </div>
 
+  </body>
+</html>
